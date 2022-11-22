@@ -3,7 +3,7 @@ services:
   nc-nginx:
     networks:
       - default 
-    image: mynginx
+    image: sirajsaadi/lsd-nginx:latest
     container_name: mynginx
     restart: unless-stopped
     labels:
